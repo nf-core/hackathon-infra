@@ -36,10 +36,10 @@ set -e
 cd /opt/workadventure/hackathon-infra
 
 echo "Pulling latest changes..."
-git pull
+sudo git pull
 
 # Ensure the script symlink exists (dist/ contains pre-built scripts)
-[ -L maps/default/script ] || ln -s dist maps/default/script
+[ -L maps/default/script ] || sudo ln -s dist maps/default/script
 
 echo "Maps updated successfully!"
 ENDSSH
