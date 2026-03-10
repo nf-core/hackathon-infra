@@ -846,22 +846,6 @@
          "id":26,
          "name":"audioLounge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"audioCopyright",
-                 "type":"string",
-                 "value":"https:\/\/www.bensound.com"
-                }, 
-                {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"playAudio",
-                 "type":"string",
-                 "value":"assets\/bensound-thelounge.mp3"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
@@ -3943,22 +3927,6 @@
                  "id":74,
                  "name":"Build your nf-core pipeline dashboard with Depictio",
                  "opacity":1,
-                 "properties":[
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
-                         "value":"https:\/\/nf-co.re\/code_of_conduct"
-                        }, 
-                        {
-                         "name":"openWebsitePolicy",
-                         "type":"string",
-                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onicon"
-                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":55,
